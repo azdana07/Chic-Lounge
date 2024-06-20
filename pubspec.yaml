@@ -1,0 +1,69 @@
+name: chic_lounge
+description: Sebuah proyek Flutter untuk Chic Lounge
+
+# Versi dari aplikasi
+version: 1.0.0+1
+
+# Spesifikasi minimal SDK yang dibutuhkan
+environment:
+  sdk: ">=2.12.0 <3.0.0"
+
+# Daftar dependensi yang digunakan oleh proyek
+dependencies:
+  flutter:
+    sdk: flutter  # Dependensi utama untuk Flutter
+  lints: ^1.0.0   # Linter atau pemeriksa kode
+  cupertino_icons: ^1.0.2  # Ikon gaya Cupertino untuk aplikasi iOS
+  http: ^0.13.3   # Paket untuk melakukan permintaan HTTP
+  intl: ^0.17.0   # Paket untuk dukungan internasionalisasi dan lokal
+  qr_flutter: ^4.0.0   # Paket untuk membuat kode QR
+  image_picker: ^1.1.2
+
+# Dependensi pengembangan (dev dependencies) untuk pengujian
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+# Konfigurasi spesifik Flutter
+flutter:
+  uses-material-design: true  # Menggunakan desain material dari Flutter
+  assets:
+    - assets/haircut_styling.jpeg
+    - assets/hair_coloring.jpeg
+    - assets/hair_spa.jpeg
+    - assets/smoothing_rebonding.jpeg
+    - assets/perming.jpeg
+    - assets/header.png
+    - assets/salon1.jpeg
+    - assets/salon2.jpeg
+    - assets/salon3.jpeg
+    - assets/salon4.jpg
+    - assets/HC001.jpeg
+    - assets/HC002.jpeg
+    - assets/HC003.jpeg
+    - assets/HC004.jpeg
+    - assets/HC005.jpeg
+    - assets/HC006.jpeg
+    - assets/HC007.jpeg
+    - assets/HC008.jpeg
+    - assets/smoothing.jpg
+    - assets/rebonding.png
+    - assets/spa.jpg
+    - assets/strawberry_blonde.jpeg
+    - assets/auburn.jpeg
+    - assets/caramel.jpeg
+    - assets/ginger.jpeg
+    - assets/cherry_red.jpeg
+    - assets/black.jpeg
+    - assets/balayage.jpeg
+    - assets/blonde.jpeg
+    - assets/hairspa.jpg
+    - assets/P001.jpg
+    - assets/P002.jpg
+    - assets/me.jpeg
+    - assets/linkaja.png
+    - assets/ovo.png
+    - assets/dana.jpeg
+    - assets/owner1.jpeg
+    - assets/owner2.jpeg
+
